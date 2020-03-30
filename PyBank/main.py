@@ -40,7 +40,7 @@ with open(budgetData, newline = "") as csvfile:
     
 
 print("Financial Analysis")
-print("---------------------")
+print("---------------------------------------------------")
 print(f"Total Months: {str(totalMonths)}")
 print(f"Total: ${str(totalProfitlosses)}")
 print(f"Average Change: ${str(round(averageChange,2))}")
@@ -49,7 +49,7 @@ print(f"Greatest Decrease in Profits: {greatestDecreasedate} (${str(greatestDecr
 
 output = open("output.txt", "w")
 line1 = "Financial Analysis"
-line2 = "---------------------"
+line2 = "---------------------------------------------------"
 line3 = str(f"Total Months: {str(totalMonths)}")
 line4 = str(f"Total: ${str(totalProfitlosses)}")
 line5 = str(f"Average Change: ${str(round(averageChange,2))}")
